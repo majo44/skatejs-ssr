@@ -39,4 +39,9 @@ document.body.innerHTML = '<x-hello name="Pawel"/>';
 // skatejs is using debounce for render, that is why we need to 'wait'
 setTimeout(() => {
     console.log(document.documentElement.innerHTML);
+    // we are able to trigger next render just by setting attribute
+    document.querySelector('x-hello').setAttribute('name', 'Peter');
+    setTimeout(() => {
+        console.log(document.documentElement.innerHTML);
+    });
 }, 1);
