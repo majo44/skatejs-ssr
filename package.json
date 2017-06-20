@@ -4,7 +4,8 @@
   "dependencies": {
     "domino-custom-elements": "^1.1.1",
     "preact": "^8.1.0",
-    "skatejs": "^5.0.0-alpha.10"
+    "skatejs": "^5.0.0-alpha.10",
+    "zone.js": "^0.8.12"
   },
   "engines": {
     "node": "^8.0.0"
