@@ -1,0 +1,12 @@
+{
+  "name": "skatejs-ssr",
+  "version": "0.0.1",
+  "dependencies": {
+    "domino-custom-elements": "^1.1.1",
+    "preact": "^8.1.0",
+    "skatejs": "^5.0.0-alpha.10"
+  },
+  "engines": {
+    "node": "^8.0.0"
+  }
+}

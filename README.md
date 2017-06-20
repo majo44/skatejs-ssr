@@ -1,2 +1,2 @@
 # skatejs-ssr
-Server side rendering of skate.js 5
+Example of server side rendering of skate.js 5
